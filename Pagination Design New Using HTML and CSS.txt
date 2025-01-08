@@ -1,0 +1,47 @@
+<ul class="pagination">
+    <style>
+        body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+background-color: #f9f9f9;
+}
+.pagination {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.pagination li {
+margin: 0 5px;
+}
+.pagination a {
+display: block;
+padding: 10px 15px;
+text-decoration: none;
+color: #007BFF;
+border: 1px solid #ddd;
+border-radius: 4px;
+transition: all 0.3s ease;
+}
+.pagination a:hover {
+background-color: #007BFF;
+color: #fff;
+}
+.pagination a.active {
+background-color: #007BFF;
+color: #fff;
+pointer-events: none;
+}
+    </style>
+<li><a href="#">«</a></li>
+<li><a href="#">1</a></li>
+<li><a href="#" class="active">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">5</a></li>
+<li><a href="#">»</a></li>
+</ul>
